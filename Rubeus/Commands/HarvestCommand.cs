@@ -10,7 +10,7 @@ namespace Rubeus.Commands
 
         public void Execute(Dictionary<string, string> arguments)
         {
-            Console.WriteLine("[*] Action: TGT Harvesting (with auto-renewal)");
+            Console.WriteLine("[*] Action : TGT Harvesting (with auto-renewal)");
 
             string targetUser = null;
             int monitorInterval = 60; // how often to check for new TGTs

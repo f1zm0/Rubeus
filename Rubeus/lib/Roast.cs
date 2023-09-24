@@ -491,7 +491,7 @@ namespace Rubeus
                 else if (String.Equals(supportedEType, "aes"))
                 {
                     // msds-supportedencryptiontypes:1.2.840.113556.1.4.804:=24 ->  supported etypes includes AES128/256
-                    Console.WriteLine("[*] Searching for accounts that support AES128_CTS_HMAC_SHA1_96/AES256_CTS_HMAC_SHA1_96");
+                    Console.WriteLine("[*] Searching for accounts that support: AES128_CTS_HMAC_SHA1_96/AES256_CTS_HMAC_SHA1_96");
                     encFilter = "(msds-supportedencryptiontypes:1.2.840.113556.1.4.804:=24)";
                 }
 

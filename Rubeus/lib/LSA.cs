@@ -1213,7 +1213,7 @@ namespace Rubeus
                     Console.WriteLine("[X] Error {0} running LsaLookupAuthenticationPackage (ProtocolStatus): {1}", winError, errorMessage);
                     return;
                 }
-                Console.WriteLine("[+] Tickets successfully purged!");
+                Console.WriteLine("[+] Tickets have been successfully purged!");
             }
             finally
             {

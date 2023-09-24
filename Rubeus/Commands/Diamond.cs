@@ -183,7 +183,7 @@ namespace Rubeus.Commands
                     cred = new KRB_CRED(LSA.RequestFakeDelegTicket());
                 }
                 catch {
-                    Console.WriteLine("[X] Unable to retrieve TGT using tgtdeleg");
+                    Console.WriteLine("[X] Unable to retrieve TGT (using tgtdeleg)");
                     return;
                 }
                 ForgeTickets.ModifyTicket(cred, krbKey, krbKey, outfile, ptt, luid, ticketUser, groups, ticketUserId, sids);
