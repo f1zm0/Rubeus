@@ -611,7 +611,7 @@ namespace Rubeus {
                         }
                     }
 
-                    Console.WriteLine("\r\n[*] Printing argument list for use with Rubeus' 'golden' or 'silver' commands:\r\n\r\n{0}\r\n", outArgs);
+                    Console.WriteLine("\r\n[*] Printing argument list for use with: Rubeus' 'golden' or 'silver' commands:\r\n\r\n{0}\r\n", outArgs);
                 }
 
                 return kirbiBytes;
